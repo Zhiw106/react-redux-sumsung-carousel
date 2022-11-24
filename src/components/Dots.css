@@ -1,0 +1,42 @@
+.imgCtrl {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    padding: 5px;
+}
+
+.imgDots {
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.dot {
+    padding: 5px;
+    font-size: 15px;
+}
+
+.highlight {
+    font-weight: 600;
+}
+
+.no-highlight {
+    font-weight: 500;
+    color: #787474;
+}
+
+
+.imgPlayCtrl {
+    right: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.play, .pause {
+    padding: 5px
+}
+
